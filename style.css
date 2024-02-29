@@ -1,0 +1,31 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #414141;
+}
+
+h1{
+    color: orangered;
+}
+
+ul li{
+    font-weight: 600;
+    margin-top: 5px;
+    padding-right: 5px;
+}
+
+.delete:hover{
+    background-color: red;
+}
+
+.add:hover{
+    background-color: green;
+}
